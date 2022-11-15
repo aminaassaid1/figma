@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+body    {
+    display: flex;
+}
+#bar{
+    position: fixed;
+    background-color: #F44336;
+    width: 200px;
+    height: 100vh;
+    padding-left: 25px;
+    padding-top: 70px;
+}
+#logo   {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#bar a {
+    color: white;
+}
+#bar li {
+    margin-bottom: 15px;
+}
+#side  {
+    padding: 70px 20px 0 20px;
+    margin-left: 210px;
+}
+#title  {
+    font-size: 64px;
+}
+.ligne{
+    background-color: #F44336;
+    height: 10px;
+    width: 60px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.section-title{
+    color: #F44336;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.box    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.imgs  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.box img{
+    width: 49.5%;
+}
+.strong {
+    font-weight: 600;
+}
+.teams{
+    background-color: #F1F1F1;
+    float: left;
+    width: 32%;
+    height: 400px;
+}
+.teams p {
+    margin-left: 10px;
+}
+.teams img{
+    width: 100%;
+    
+}
+.mid    {
+    margin: 0 2%;
+}
+#collection{
+    overflow: hidden;
+
+}
+.teams h4{
+    margin: 20px 13px;
+}
+.color{
+    color: #616161;
+    margin-bottom: 15px ;
+    
+}
+
+#sign{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    
+}
+#sign:hover,#up:hover {
+    background-color: black;
+    color: white;
+}
+#up{
+    background-color: #F44336;
+    padding: 10px;
+    border: none;
+}
+.tb{
+    overflow: hidden;
+    margin: 20px 0;
+}
+.tbl1 , .tbl2 {
+    text-align: center;
+    background-color: #eeeeee;
+    width: 500px;
+    float: left;
+    border: none;
+
+}
+td{
+    border-bottom: 1px solid grey;
+    height: 50px;
+}
+.tbl1 th{
+    height: 60px;
+    background-color: #686868;
+    color:#F1F1F1;
+}
+.tbl2 th{
+    height: 60px;
+    background-color: #F44336;
+    color:#F1F1F1;
+}
+.tbl2{
+    margin-left: 10px;
+}
+input{
+    width: 95%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+#mar{
+    margin-bottom: 20px;
+}
+#send{
+    background-color: #ff1100;
+    border: none;
+    color: #eeeeee;
+    height:40px ;
+    width: 95%;
+}
+#send:hover{
+    background-color: #c2c2c2;
+    color: #000000;
+}
+footer{
+    margin-top: 30px;
+    padding: 20px;
+    width: 104.9%;
+    background-color: #cfcfcf;
+    margin-left: -30px;
+}
+footer i{
+    font-size: 30px;
+    margin: 25px 150px;
+
+}
